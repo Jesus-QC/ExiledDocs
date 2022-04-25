@@ -2,20 +2,17 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Exiled Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**EXILED** is a low level plugin framework made for SCP: Secret Laboratory.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Get started with **EXILED**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Index
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Install](/docs/installation/intro) the framework.
 
 ## Generate a new site
 
