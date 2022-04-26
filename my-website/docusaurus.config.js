@@ -10,7 +10,7 @@ const config = {
   tagline: 'SCP:SL Low Level Plugin Framework',
   url: 'https://exiled-team.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Exiled-Team',
@@ -36,6 +36,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      /*announcementBar: {
+        id: 'announce_bar',
+        content:
+            'WIP Documentation',
+        backgroundColor: '#20232a',
+        textColor: '#fff',
+        isCloseable: false,
+      },*/
       navbar: {
         title: 'Exiled',
         logo: {
@@ -45,49 +53,25 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Installation/Intro',
             position: 'left',
             label: 'Installation',
           },
-          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Exiled-Team/EXILED',
-            label: 'GitHub',
+            position: 'right',
+            label: 'Github',
+          },
+          {
+            href: 'https://discord.gg/PyUkWTg',
+            label: 'Discord',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Installation',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/Exiled-Team/EXILED',
-              },
-            ],
-          },
-        ],
+        links: [],
         copyright: `Copyright © ${new Date().getFullYear()} Exiled-Team, Inc.`,
       },
       prism: {

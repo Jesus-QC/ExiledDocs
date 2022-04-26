@@ -6,8 +6,8 @@ sidebar_position: 1
 
 Download `Exiled.Installer-Win.exe` from [here](https://github.com/Exiled-Team/EXILED/releases).
 
-Move it into your server directory and double click the .exe.
-
+Move it into your **server directory** and double click the .exe.
+- Make sure the server directory is the one where LocalAdmin.exe is found.
 
 #### Usage
 ```
@@ -32,6 +32,8 @@ Additional Arguments:
 -----
 
 #### Examples
+Using powershell.
+
 ```powershell title="Basic installation in the folder you are in"
 .\Exiled.Installer-Win --pre-releases
 ```
