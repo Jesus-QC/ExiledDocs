@@ -59,8 +59,9 @@ const config = {
           },
           {
             href: 'https://github.com/Exiled-Team/EXILED',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
             position: 'right',
-            label: 'Github',
           },
           {
             href: 'https://discord.gg/PyUkWTg',
