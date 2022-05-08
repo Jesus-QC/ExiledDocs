@@ -55,7 +55,12 @@ const config = {
             type: 'doc',
             docId: 'Installation/Intro',
             position: 'left',
-            label: 'Installation',
+            label: 'Documentation',
+          },
+          {
+            href: 'https://exiled.host/',
+            position: 'left',
+            label: 'Exiled Hosting',
           },
           {
             href: 'https://github.com/Exiled-Team/EXILED',
