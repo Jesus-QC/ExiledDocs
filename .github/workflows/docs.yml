@@ -11,6 +11,9 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+  env:
+    DOCUMENTATION_PATH: ${{ github.workspace }}/my-website
+
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
@@ -19,14 +22,17 @@ jobs:
           cache: yarn
 
       - name: Install dependencies
+        working-directory: ${{ env.DOCUMENTATION_PATH }}
         run: yarn install --frozen-lockfile
       - name: Build website
+        working-directory: ${{ env.DOCUMENTATION_PATH }}
         run: yarn build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
+        working-directory: ${{ env.DOCUMENTATION_PATH }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Build output to publish to the `gh-pages` branch:
