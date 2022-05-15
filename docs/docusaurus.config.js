@@ -36,6 +36,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+      },
       /*announcementBar: {
         id: 'announce_bar',
         content:
