@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      DOCUMENTATION_PATH: ./my-website
+      DOCUMENTATION_PATH: ${{ github.workspace }}/my-website
 
     steps:
       - uses: actions/checkout@v2
