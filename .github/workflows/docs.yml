@@ -3,7 +3,7 @@ name: ExiledDocs
 on:
   push:
     branches:
-      - master
+      - wwwww
 
 jobs:
   deploy:
