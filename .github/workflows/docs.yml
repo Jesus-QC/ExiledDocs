@@ -1,5 +1,4 @@
 name: ExiledDocs
-
 on:
   push:
     branches:
