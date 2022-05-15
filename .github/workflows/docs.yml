@@ -24,10 +24,10 @@ jobs:
 
       - name: Install dependencies
         working-directory: ${{ env.DOCUMENTATION_PATH }}
-        run: yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile --cwd ${{ env.DOCUMENTATION_PATH }}
       - name: Build website
         working-directory: ${{ env.DOCUMENTATION_PATH }}
-        run: yarn build
+        run: yarn --cwd ${{ env.DOCUMENTATION_PATH }} build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
