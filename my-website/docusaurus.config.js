@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Exiled',
   tagline: 'SCP:SL Low Level Plugin Framework',
-  url: 'https://exiled-team.github.io',
-  baseUrl: '/',
+  url: 'https://jesus-qc.github.io',
+  baseUrl: '/ExiledDocs',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
