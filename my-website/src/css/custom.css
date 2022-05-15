@@ -69,21 +69,25 @@ html[data-theme='dark'] .header-github-link:before {
   margin-right: 5px;
 }
 
-.title-box{
+.main{
   text-align: center;
 }
 
 .title{
   font-size: 5rem;
-  margin-top: 5rem;
-  color: #cf3e3b;
+  color: #fb3a35;
 }
 
-.button-box{
-  text-align: center;
-  margin-top: 5rem;
+.desc{
+  font-size: 1rem;
 }
 
-span{
-  color: #cf3e3b;
+.vid{
+  border-radius: 10px;
+}
+
+@media screen and (min-height: 765px) {
+  .main{
+    margin: 12.25vh 0;
+  }
 }
