@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Exiled-Team',
-  projectName: 'EXILED',
+  organizationName: 'Jesus-QC',
+  projectName: 'ExiledDocs',
 
   presets: [
     [
