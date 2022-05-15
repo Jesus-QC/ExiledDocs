@@ -9,7 +9,7 @@ const config = {
   title: 'Exiled',
   tagline: 'SCP:SL Low Level Plugin Framework',
   url: 'https://jesus-qc.github.io',
-  baseUrl: '/ExiledDocs',
+  baseUrl: '/ExiledDocs/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
